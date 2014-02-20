@@ -8,6 +8,11 @@ Repositório padrão para novos projetos
 * Front-end : Karol
 * GP : Maíra
 
+## Analytics
+* O atendimento não passou o ID ainda
+* Tem eventos para a área de produtos
+
+
 ## Informações importantes
 * Versão de Qa no seguinte endereco [salveqa.hospedagemdesites.ws/]
 * Esse app tem integração com Myhuggies no momento do cadastro do evento, nas classes Event - MyHuggies;
