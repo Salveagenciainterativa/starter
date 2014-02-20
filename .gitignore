@@ -1,13 +1,13 @@
 *.svn
-*nbprojects
-*nbproject
-*.project
 *obj/
 *Properties/
 *.psd
 /userfiles
-*\templates_c
+*templates_c
 
+node_modules
+.tmp
+.sass-cache
 
 # OS or Editor folders
 .DS_Store
@@ -15,7 +15,8 @@
 .project
 .settings
 .tmproj
-nbproject
+*nbprojects
+*nbproject
 Thumbs.db
 
 *.sublime-project
