@@ -3,4 +3,10 @@
 - Title 
 - Description
 - GA
-- Passar as fontes
+- Fontes
+
+
+===============================================
+Programadores
+===============================================
+- Conferir analytics
