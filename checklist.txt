@@ -1,0 +1,6 @@
+- Favicon
+- apple-touch-icon
+- Title 
+- Description
+- GA
+- Passar as fontes
