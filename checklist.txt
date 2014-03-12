@@ -4,9 +4,12 @@
 - Description
 - GA
 - Fontes
-
+- Métricas de tagueamento
 
 ===============================================
 Programadores
 ===============================================
 - Conferir analytics
+- Conferir charset UTF8
+- Confeir nomenclatura com hífen
+- Commons para intens comuns do site
