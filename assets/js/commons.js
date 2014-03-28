@@ -24,8 +24,10 @@ var PRJ = PRJ || {};
 	//console.log shortcut
 	window.l =  function(args) {
 		console.log(args);
-	};
-	
+	}
+
 }());
+
+
 
 
