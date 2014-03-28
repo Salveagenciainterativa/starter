@@ -21,7 +21,7 @@ Repositório padrão para novos projetos
 * Hospedado no Media temple [http://mediatemple.net/landing/grid/?gclid=CPuPvP3807wCFY1r7AodAmQA-Q]
 
 ## Passos para deploy
-* Executar o "grunt bild" dentro do projeto
+* Executar o "grunt build" dentro do projeto
 * Dar push para o servidor de QA
 * Dar push para o servidor de produção
 
