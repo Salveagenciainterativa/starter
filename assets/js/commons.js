@@ -1,6 +1,8 @@
 var PRJ = PRJ || {};
 
 ;(function() {
+	'use strict';
+	
 	var method,
 		noop = function () {},
 		methods = [
