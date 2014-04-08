@@ -1,0 +1,26 @@
+{
+  "name": "Footner",
+  "version": "1.0.0",
+  "title": "Hotsite de Mip do produto footner",
+  "homepage": "www.mipbrasilfarma.com.br",
+  "description": "Hotsite de Mip do produto footner.",
+  "author": {
+    "name": "Salve",
+    "url": "http://www.agenciasalve.com.br",
+    "email": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-compass": "~0.5.0",
+    "matchdep": "~0.1.2",
+    "grunt-notify": "~0.2.7",
+    "grunt-pngmin": "~0.6.1",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.1.0"
+  }
+}
