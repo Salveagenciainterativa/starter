@@ -4,7 +4,7 @@
 - Description
 - GA
 - Fontes
-- Métricas de tagueamento
+- Metricas de tagueamento
 
 ===============================================
 Programadores
@@ -12,3 +12,4 @@ Programadores
 - Conferir analytics
 - Conferir Sitemap
 - Conferir SEO
+- Otimizar imagens

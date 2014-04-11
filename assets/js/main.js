@@ -1,4 +1,4 @@
-PRJ = PRJ || {};
+var PRJ = PRJ || {};
 
 ;(function () {
 	'use strict';
