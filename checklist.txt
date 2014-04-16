@@ -11,5 +11,6 @@ Programadores
 ===============================================
 - Conferir analytics
 - Conferir Sitemap
-- Conferir SEO
+- Conferir robots
 - Otimizar imagens
+- Testar no Tablet
