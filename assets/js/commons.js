@@ -28,6 +28,44 @@ var PRJ = PRJ || {};
 		console.log(args);
 	}
 
+
+
+/*
+ * Analytics
+ * No html deve ter data-ga="Categoria|evento|rotulo"
+ *
+ */
+
+	$('[data-ga]').click(function (event) {
+		var data = $(this).data('ga').split('|');
+		if(data[3] && data[3] === "true") {
+			event.preventDefault();
+			PRJ.trackGARedirect($(this), data[0], data[1], data[2]);
+		} else {
+			PRJ.trackAnalytics(data[0], data[1], data[2]);
+		}
+	});
+
+	PRJ.trackAnalytics = function (event, action, label) {
+	    if (typeof (_gaq) !== 'undefined') {
+	        _gaq.push(['_trackEvent', event, action, label]);
+	    }
+	};
+
+	PRJ.trackGARedirect = function (button, event, action, label) {
+		
+	    // track
+	    trackAnalytics(event, action, label);
+
+	    // redirect
+	    if(button.attr('target') !== '_blank') {
+	    	setTimeout(function () {
+	    	    window.self.location = button.attr('href');
+	    	}, 500);
+	    }
+	};
+
+
 }());
 
 
