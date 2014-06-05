@@ -38,7 +38,7 @@ var PRJ = PRJ || {};
 
 	$('[data-ga]').click(function (event) {
 		var data = $(this).data('ga').split('|');
-		if(data[3] && data[3] === "true") {
+		if(data[3] && data[3] === "waitredirect") {
 			event.preventDefault();
 			PRJ.trackGARedirect($(this), data[0], data[1], data[2]);
 		} else {
@@ -46,9 +46,13 @@ var PRJ = PRJ || {};
 		}
 	});
 
-	PRJ.trackAnalytics = function (event, action, label) {
+	PRJ.trackAnalytics = function (cat, action, label) {
 	    if (typeof (_gaq) !== 'undefined') {
-	        _gaq.push(['_trackEvent', event, action, label]);
+	        _gaq.push(['_trackEvent', cat, action, label]);
+	    }else{
+		    if (typeof (ga) !== 'undefined') {
+		    	ga('send', 'event', cat, action, label);
+		    }
 	    }
 	};
 
