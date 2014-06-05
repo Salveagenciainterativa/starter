@@ -4,7 +4,9 @@
 - Description
 - GA
 - Fontes
-- Metricas de tagueamento
+- Tagueamento de eventos
+- Urls
+- Sitemap
 
 ===============================================
 Programadores
@@ -14,3 +16,7 @@ Programadores
 - Conferir robots
 - Otimizar imagens
 - Testar no Tablet
+- Preencher o Readme do projeto
+- Cadastrar No Google Webmaster tools
+- Instalar monitoramento de erros(Back-end)
+- Rodar scaner de vulnerabilidades(Back-end)

@@ -1,4 +1,6 @@
 # robotstxt.org/
 
 User-agent: *
-Sitemap: sitemap.xml
+Disallow: /_docs
+
+Sitemap: http://dominio.do.site/sitemap.xml
