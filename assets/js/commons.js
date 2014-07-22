@@ -69,6 +69,27 @@ var PRJ = PRJ || {};
 	    }
 	};
 
+	/**
+	 * Ajax
+	 * */
+	
+	PRJ.ajax = function(postData, done) {
+		var ajax = $.ajax({
+			type: "POST",
+			url: "ajax.php",
+			data: postData
+		});
+
+		ajax.done(done);
+		return ajax;
+	};
+	
+	PRJ.parseJson = function(r) {
+		if (typeof(r) == 'string') {
+			r = $.parseJSON(r);
+		}
+		return r;
+	};
 
 }());
 
