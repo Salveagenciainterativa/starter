@@ -1,11 +1,11 @@
 *.svn
 *.psd
-/userfiles
+*userfiles
 *templates_c
 *img-optimized
-node_modules
-.tmp
-.sass-cache
+*node_modules
+*.tmp
+*.sass-cache
 
 # .net
 *obj/
