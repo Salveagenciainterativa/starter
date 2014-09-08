@@ -57,6 +57,22 @@ var PRJ = PRJ || {};
 			}
 		}
 	};
+	
+	var pagesViews = [];
+	
+	PRJ.trackPageviewGA = function (page, title) {
+        var pageTitle = page + title;
+        
+        if($.inArray(pageTitle, pagesViews) == '-1'){
+            if(typeof(ga) !== 'undefined') {
+                ga('send', 'pageview', {
+                    'page': page,
+                    'title': title
+                });
+            }
+            pagesViews.push(pageTitle);
+        }
+    }
 
 	PRJ.trackGARedirect = function(button, event, action, label) {
 
